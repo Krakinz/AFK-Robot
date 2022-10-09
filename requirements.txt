@@ -10,7 +10,7 @@ aiohttp
 jikanpy
 regex
 bleach
-git+https://github.com/starry69/python-markdown2.git
+git+https://github.com/trentm/python-markdown2.git
 telethon
 datetime
 pytz
