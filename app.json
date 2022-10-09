@@ -1,0 +1,39 @@
+{"name": "—🚸••÷[Hყρҽ Aϝƙ Bσƚ]÷••🚸—",
+"description": "Get your stuffs in a single bot",
+"repository": "https://github.com/Krakinz/AFK-Robot.git",
+"logo": "https://telegra.ph/file/466ae2f7dd5dd096e33e6.jpg",
+"website": "https://t,me/Krakns",
+"keywords": ["telegram","personal_bot","pyrogram","telegram-bot","information"],
+"env":{
+"API_ID":{
+"description": "api_id part of your Telegram API Key from my.telegram.org/apps",
+"required":
+true},
+"API_HASH":{
+"description": "api_hash part of your Telegram API Key from my.telegram.org/apps",
+"required": true},
+"BOT_TOKEN":{
+"description":
+"Your BotFather Token.",
+"required": 
+true},
+"SQLALCHEMY_DATABASE_URI":{
+"description":
+"Add the database url",
+"required":
+true},
+"ENV":{
+"description":
+"Keep it ENV",
+"required":
+true}},  
+"addons":[{
+"options":{
+"version":
+"13"},
+"plan":
+"heroku-postgresql"}],
+"buildpacks":[{
+"url":
+"heroku/python"
+}]}
