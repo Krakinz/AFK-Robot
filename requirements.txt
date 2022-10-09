@@ -25,3 +25,4 @@ validators
 tswift
 PyYAML
 humanize
+pyodbc
